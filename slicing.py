@@ -14,6 +14,9 @@ b = "Hello, World!"
 print(b[2:])
 
 #negative indexing
+#negative slicing starts from -1. 
+#-1 represents the last character of the sentence
 
 b = "Hello, World!"
-print(b[-5:-2])
+print(b[-5:-2]) #position -2 is not included in the output
+
